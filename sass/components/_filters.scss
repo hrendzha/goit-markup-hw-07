@@ -1,0 +1,42 @@
+.filters {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.filters__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.filters__label {
+    display: inline-block;
+
+    padding: 6px 22px;
+
+    font-weight: var(--sub-title-font-weight);
+    font-size: var(--secondary-font-size);
+    line-height: 1.6;
+
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filters__label:hover {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filters__checkbox:checked + .filters__label {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filters__checkbox:focus-visible + .filters__label {
+    outline: 2px solid black;
+    outline-offset: 1px;
+}

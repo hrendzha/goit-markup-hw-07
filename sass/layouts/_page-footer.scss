@@ -1,0 +1,28 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--secondary-bg-color);
+}
+
+.page-footer__container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.page-footer__logo {
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+    color: #fff;
+}
+
+.page-footer__title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}

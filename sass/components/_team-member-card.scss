@@ -1,0 +1,26 @@
+.team-member-card {
+    text-align: center;
+
+    background-color: var(--primary-bg-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-member-card__wrap {
+    padding: 30px 32px;
+}
+
+.team-member-card__name {
+    margin-bottom: 10px;
+
+    font-weight: var(--sub-title-font-weight);
+    font-size: var(--secondary-font-size);
+}
+
+.team-member-card__position {
+    margin-bottom: 16px;
+
+    font-size: var(--secondary-font-size);
+    line-height: 1.18;
+    color: var(--secondary-text-color);
+}
