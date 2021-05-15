@@ -3,26 +3,26 @@
     padding-bottom: 60px;
 
     background-color: var(--secondary-bg-color);
-}
 
-.page-footer__container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
+    &__container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
 
-.page-footer__logo {
-    display: inline-block;
+    &__logo {
+        display: inline-block;
 
-    margin-bottom: 20px;
+        margin-bottom: 20px;
 
-    color: #fff;
-}
+        color: #fff;
+    }
 
-.page-footer__title {
-    margin-bottom: 20px;
+    &__title {
+        margin-bottom: 20px;
 
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--white-text-color);
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--white-text-color);
+    }
 }

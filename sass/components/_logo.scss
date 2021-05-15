@@ -5,8 +5,8 @@
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-}
 
-.logo__accent-word {
-    color: var(--accent-color);
+    &__accent-word {
+        color: var(--accent-color);
+    }
 }

@@ -4,21 +4,21 @@
 
     margin-top: calc(-1 * var(--card-set-gap));
     margin-left: calc(-1 * var(--card-set-gap));
-}
 
-.grid__item {
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
-}
+    &__item {
+        margin-left: var(--card-set-gap);
+        margin-top: var(--card-set-gap);
+    }
 
-.grid__item--columns-3 {
-    flex-basis: calc((100% - var(--card-set-gap) * 3) / 3);
-}
+    &__item--columns-3 {
+        flex-basis: calc((100% - var(--card-set-gap) * 3) / 3);
+    }
 
-.grid__item--columns-4 {
-    flex-basis: calc((100% - var(--card-set-gap) * 4) / 4);
-}
+    &__item--columns-4 {
+        flex-basis: calc((100% - var(--card-set-gap) * 4) / 4);
+    }
 
-.grid__item--columns-6 {
-    flex-basis: calc((100% - var(--card-set-gap) * 6) / 6);
+    &__item--columns-6 {
+        flex-basis: calc((100% - var(--card-set-gap) * 6) / 6);
+    }
 }
